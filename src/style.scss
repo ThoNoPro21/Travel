@@ -1,0 +1,54 @@
+header {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(0, 42, 255);
+    font-weight: 500;
+}
+
+$myColor: rgb(247, 247, 247);
+$myBackground-Color: white;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $myBackground-Color;
+    flex-direction: column;
+
+    .card-container {
+        height: 500px;
+        width: 500px;
+        background-color: $myColor;
+        padding: 20px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: $myBackground-Color;
+            height: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+
+            .my-img {
+                flex-grow: 2;
+                object-fit: cover;
+                height: fit-content;
+                width: fit-content;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .my-logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-grow: 1;
+            }
+        }
+    }
+}
