@@ -1,0 +1,17 @@
+@import './override-antd/ant_all';
+
+// only for common or minus
+
+.Toastify__close-button {
+    align-self: center !important;
+}
+
+.table-css>thead {
+    tr,
+    th,
+    td {
+        border: 1px solid #E2E2E2;
+        padding: 8px;
+        text-align: left;
+    }
+}

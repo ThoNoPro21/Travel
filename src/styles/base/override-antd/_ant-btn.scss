@@ -1,0 +1,15 @@
+button.ant-btn {
+    &.ant-btn-primary,
+    &[type='reset'],
+    &[type='submit'] {
+        background: #2971df;
+    }
+
+    &.ant-btn-primary.ant-btn-dangerous {
+        background: #ff4d4f;
+    }
+}
+
+button[role='switch'][aria-checked='false'] {
+    background: #c9c9c9;
+}

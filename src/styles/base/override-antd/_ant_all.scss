@@ -1,0 +1,16 @@
+@import './ant-btn';
+@import './ant-modal';
+@import './ant-checkbox';
+
+.anticon > svg {
+    display: block;
+}
+
+.eyes-icon .anticon-eye-invisible > svg {
+    width: 24px;
+    height: 24px;
+}
+
+.affix-destination.ant-affix {
+    font-size: 16px !important;
+}

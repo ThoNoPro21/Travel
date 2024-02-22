@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    color: $color-primary-text;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 24px;
+    scroll-behavior: smooth !important;
+}
+
+a {
+    text-decoration: none;
+}

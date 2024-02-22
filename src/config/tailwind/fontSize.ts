@@ -1,0 +1,28 @@
+const fontSize = {
+    xs: ['0.75rem', { lineHeight: '1rem' }],
+    sm: ['0.875rem', { lineHeight: '1.25rem' }],
+    base: ['1rem', { lineHeight: '1.5rem' }],
+    lg: ['1.125rem', { lineHeight: '1.75rem' }],
+    xl: ['1.25rem', { lineHeight: '1.75rem' }],
+    '2xl': ['1.5rem', { lineHeight: '2rem' }],
+    '2.5xl': ['1.75rem', { lineHeight: '2.625rem' }],
+    '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+    '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+    '4.5xl': ['2.5rem', { lineHeight: '3rem' }],
+    '5xl': ['3rem', { lineHeight: '1' }],
+    '6xl': ['3.75rem', { lineHeight: '1' }],
+    '7xl': ['4.5rem', { lineHeight: '1' }],
+    '8xl': ['6rem', { lineHeight: '1' }],
+    '9xl': ['8rem', { lineHeight: '1' }],
+    '11': ['11px', { lineHeight: '12px' }],
+    '19': ['19px', { lineHeight: '26.6px' }],
+    '20': ['20px', { lineHeight: '30px' }],
+    '22': ['22px', { lineHeight: '33px' }],
+    '28': ['28px', { lineHeight: '42px' }],
+    '32': '32px',
+    '40': ['40px', { lineHeight: '56px' }],
+    '48': ['3rem', { lineHeight: '67.2px' }],
+    '80': ['5rem', { lineHeight: '6.25rem' }],
+};
+
+export default fontSize;

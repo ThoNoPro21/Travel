@@ -1,0 +1,26 @@
+{
+    "rules": {
+        "at-rule-no-unknown": null,
+        "selector-class-pattern": null,
+        "scss/at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "tailwind",
+                    "@layer"
+                ]
+            }
+        ],
+        "declaration-block-no-shorthand-property-overrides": null,
+        "declaration-block-no-duplicate-properties": null,
+        "import-notation": "string"
+    },
+    "extends": [
+        "stylelint-config-prettier-scss",
+        "stylelint-config-standard-scss",
+        "stylelint-config-styled-components"
+    ],
+    "ignoreFiles": [
+        "./src/styles/app1.scss"
+    ]
+}
