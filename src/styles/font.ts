@@ -1,11 +1,11 @@
-import { Nunito_Sans } from 'next/font/google';
+//import { Nunito_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
 
 // define your variable fonts
-const nunito = Nunito_Sans({
-    subsets: ['latin'],
-    variable: '--font-nunito',
-});
+// const nunito = Nunito_Sans({
+//     subsets: ['latin'],
+//     variable: '--font-nunito',
+// });
 
 // define a custom local font where GreatVibes-Regular.ttf is stored in the styles folder
 const passionSansPDag = localFont({
@@ -21,4 +21,6 @@ const passionSansPDai = localFont({
     variable: '--font-passion-ai',
 });
 
-export { nunito, passionSansPDag, passionSansPDae, passionSansPDai };
+const fonts = { passionSansPDag, passionSansPDae, passionSansPDai };
+export default fonts;
+//export { nunito, passionSansPDag, passionSansPDae, passionSansPDai };
